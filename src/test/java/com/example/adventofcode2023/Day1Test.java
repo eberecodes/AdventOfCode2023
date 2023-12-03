@@ -74,7 +74,7 @@ class Day1Test {
         assertEquals(expected, actual);
     }
 
-    private String readFromFile(String file)
+    String readFromFile(String file)
             throws IOException {
         StringBuilder resultStringBuilder = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
